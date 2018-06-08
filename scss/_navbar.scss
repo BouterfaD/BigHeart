@@ -36,13 +36,13 @@
     }
   }
   @media (min-width: 992px) {
-    border-color: transparent;
-    background-color: transparent;
+    border-color: rgba(33,37,41,.1);
+    background-color: $white;
     .navbar-brand {
-      color: fade-out($white, .3);
+      color: fade-out($primary, .3);
       &:focus,
       &:hover {
-        color: $white;
+        color: $primary;
       }
     }
     .navbar-nav > li.nav-item > a.nav-link {
@@ -50,16 +50,16 @@
     }
     .navbar-nav > li.nav-item > a.nav-link,
     .navbar-nav > li.nav-item > a.nav-link:focus {
-      color: fade-out($white, .3);
+      color: fade-out($primary, .3);
       &:hover {
-        color: $white;
+        color: $primary;
       }
     }
     &.navbar-shrink {
       border-bottom: 1px solid fade-out($gray-900, .9);
       background-color: $white;
       .navbar-brand {
-        color: $primary;
+        color: $gray-900;
         &:focus,
         &:hover {
           color: darken($primary, .1);
