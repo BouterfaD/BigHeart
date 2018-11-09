@@ -62,6 +62,11 @@ gulp.task('vendor', function() {
     ])
     .pipe(gulp.dest('./vendor/scrollreveal'))
 
+  gulp.src([
+    './node_modules/blueimp-gallery/js/*.js',
+    './node_modules/blueimp-gallery/css/*.css'
+  ])
+    .pipe(gulp.dest('./vendor/blueimp-gallery'))
 });
 
 // Compile SCSS
