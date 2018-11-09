@@ -349,3 +349,11 @@ img.mfp-img {
   .mfp-container {
     padding-left: 6px;
     padding-right: 6px; } }
+
+.mainwrapper {
+  position: relative;
+  top: 57px;
+  height: 100vh;
+  background-image: url(../../img/background-repeat.png);
+  background-position: center center;
+}
