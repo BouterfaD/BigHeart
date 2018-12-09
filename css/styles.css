@@ -1372,7 +1372,7 @@ ul.resp-tabs-list {
   margin: 0 4px 0 0;
   list-style: none;
   cursor: pointer;
-  min-width: 180px; }
+  width: 159px; }
   .resp-tabs-list li:last-child {
     margin-right: 0; }
   .resp-tabs-list li i {
