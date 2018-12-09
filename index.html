@@ -16,9 +16,6 @@
 
     <!-- favicon -->
     <link rel="shortcut icon" href="img/logos/favicon.png" />
-    <link rel="apple-touch-icon" href="img/logos/apple-touch-icon-57x57.png" />
-    <link rel="apple-touch-icon" sizes="72x72" href="img/logos/apple-touch-icon-72x72.png" />
-    <link rel="apple-touch-icon" sizes="114x114" href="img/logos/apple-touch-icon-114x114.png" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <!-- plugins -->
     <link rel="stylesheet" href="css/plugins.css" />
@@ -47,22 +44,6 @@
     <!-- start header section -->
     <header class="position-absolute width-100 index-header sm-position-relative">
         <div class="navbar-default">
-            <!-- start top search -->
-            <div class="top-search bg-theme">
-                <div class="container">
-                    <form class="search-form" action="search.html" method="GET" accept-charset="utf-8">
-                        <div class="input-group">
-                                <span class="input-group-addon cursor-pointer">
-                                    <button class="search-form_submit fas fa-search font-size18 text-white" type="submit"></button>
-                                </span>
-                            <input type="text" class="search-form_input form-control margin-10px-lr" name="s" autocomplete="off" placeholder="Type & hit enter...">
-                            <span class="input-group-addon close-search"><i class="fas fa-times font-size18 margin-5px-top"></i></span>
-                        </div>
-                    </form>
-                </div>
-            </div>
-            <!-- end top search -->
-
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-12 col-lg-12">
@@ -249,30 +230,15 @@
     </section>
     <!-- end notre histoire -->
 
-    <!-- start contact section -->
-    <section class="parallax cover-background" data-overlay-dark="7" data-background="img/banner/bg9.jpg">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-9 text-center center-col">
-                    <h4 class="text-white sm-margin-20px-bottom">Haven't found what you like? feel free to contact</h4>
-                    <p class="text-white font-size16 xs-font-size14 margin-30px-bottom">We always try to provide you our best business consulting service.</p>
-                    <a href="javascript:void(0)" class="butn"><span>Buy Now</span></a>
-                </div>
-
-            </div>
-        </div>
-    </section>
-    <!-- end contact section -->
-
     <!-- start portfolio -->
-    <section class="bg-light-gray" id="portfolio">
+    <section class="bg-light-gray pt-0">
         <div class="container-fluid no-padding xs-padding-15px-lr">
             <div class="horizontaltab tab-style">
                 <ul class="resp-tabs-list hor_1">
                     <li>
                         <i class="far fa-calendar-alt text-theme-color"></i>
                         <span class="display-block xs-display-inline-block">
-                            Janvier - Février
+                            Janvier/Février
                         </span>
                     </li>
                     <li>
@@ -296,12 +262,6 @@
                     <li>
                         <i class="fas fa-calendar-alt text-theme-color"></i>
                         <span class="display-block xs-display-inline-block">
-                            Mois de Ramadhan
-                        </span>
-                    </li>
-                    <li>
-                        <i class="fas fa-calendar-alt text-theme-color"></i>
-                        <span class="display-block xs-display-inline-block">
                             Septembre
                         </span>
                     </li>
@@ -317,6 +277,18 @@
                             Décembre
                         </span>
                     </li>
+                    <li>
+                        <i class="fas fa-calendar-alt text-theme-color"></i>
+                        <span class="display-block xs-display-inline-block">
+                            Ramadhan
+                        </span>
+                    </li>
+                    <li>
+                        <i class="fas fa-calendar-alt text-theme-color"></i>
+                        <span class="display-block xs-display-inline-block">
+                            Aid El-Adha
+                        </span>
+                    </li>
                 </ul>
                 <div class="resp-tabs-container hor_1">
                     <div>
@@ -325,18 +297,21 @@
                                 <div class="col-lg-5 sm-margin-20px-bottom xs-margin-15px-bottom sm-text-center">
                                     <img src="img/content/tab-content-01.png" alt="">
                                 </div>
-                                <div class="col-lg-5 offset-lg-1">
+                                <div class="col-lg-6">
 
-                                    <h5>Portes ouvertes sur l'association.</h5>
-                                    <p>Duis Integration aute irure design in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non design proident.</p>
+                                    <h5 class="m-0">Portes ouvertes sur l'association.</h5>
+                                    <p class="text-justify">
+                                        Duis Integration aute irure design in reprehenderit in
+                                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non design proident .
+                                    </p>
 
-                                    <ul class="list-style no-margin-bottom">
-                                        <li>Exclusive design</li>
-                                        <li>Life time supports</li>
-                                        <li>Solve your problem with us</li>
-                                        <li>We Provide Awesome Services</li>
-                                        <li>Your business deserves best software</li>
-                                    </ul>
+                                    <!--<ul class="list-style no-margin-bottom">-->
+                                        <!--<li>Exclusive design</li>-->
+                                        <!--<li>Life time supports</li>-->
+                                        <!--<li>Solve your problem with us</li>-->
+                                        <!--<li>We Provide Awesome Services</li>-->
+                                        <!--<li>Your business deserves best software</li>-->
+                                    <!--</ul>-->
 
                                 </div>
                             </div>
@@ -345,20 +320,14 @@
                     <div>
                         <div class="container">
                             <div class="row">
-                                <div class="col-lg-5 sm-margin-20px-bottom xs-margin-15px-bottom order-lg-1 order-2">
-                                    <h5>Programme de visites élargi</h5>
-                                    <p>Build integration aute irure design in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat design proident.</p>
-
-                                    <ul class="list-style no-margin-bottom">
-                                        <li>Life time supports</li>
-                                        <li>Exclusive design</li>
-                                        <li>Solve your problem with us</li>
-                                        <li>We Provide Awesome Services</li>
-                                        <li>Your business deserves best software</li>
-                                    </ul>
-
+                                <div class="col-lg-6 sm-margin-20px-bottom xs-margin-15px-bottom order-lg-1 order-2">
+                                    <h5 class="mb-0">Programme de visites élargi</h5>
+                                    <p class="text-justify">
+                                        Build integration aute irure design in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                                        nulla pariatur. Excepteur sint occaecat cupidatat design proident.
+                                    </p>
                                 </div>
-                                <div class="col-lg-5 offset-lg-1 order-lg-2 order-1 sm-text-center sm-margin-20px-bottom">
+                                <div class="col-lg-5 order-lg-2 order-1 sm-text-center sm-margin-20px-bottom">
                                     <img src="img/content/tab-content-02.png" alt="">
                                 </div>
                             </div>
@@ -370,18 +339,12 @@
                                 <div class="col-lg-5 sm-margin-20px-bottom xs-margin-15px-bottom sm-text-center">
                                     <img src="img/content/tab-content-03.png" alt="">
                                 </div>
-                                <div class="col-lg-5 offset-lg-1">
-                                    <h6>Journée d'orientation, de sensibilisation et d'animation au sein du Centre Spécialisée de rééducation (Boukhalfa)</h6>
-                                    <p>Ready site integration aute irure design in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat design proident.</p>
-
-                                    <ul class="list-style no-margin-bottom">
-                                        <li>One click and site ready to use</li>
-                                        <li>Your business deserves best software</li>
-                                        <li>Solve your problem with us</li>
-                                        <li>We Provide Awesome Services</li>
-                                        <li>Exclusive design</li>
-
-                                    </ul>
+                                <div class="col-lg-6">
+                                    <h6 class="mb-0">Journée d'orientation, de sensibilisation et d'animation au sein du Centre Spécialisé de rééducation (Boukhalfa)</h6>
+                                    <p class="text-justify">
+                                        Ready site integration aute irure design in reprehenderit in voluptate velit esse
+                                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat design proident.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -389,21 +352,20 @@
                     <div>
                         <div class="container">
                             <div class="row">
-                                <div class="col-lg-5 offset-lg-1">
-                                    <h5>Kermesse pour enfants à l'occasion de la journée de l'enfance</h5>
-                                    <p>Ready site integration aute irure design in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat design proident.</p>
-
-                                    <ul class="list-style no-margin-bottom">
-                                        <li>One click and site ready to use</li>
-                                        <li>Your business deserves best software</li>
-                                        <li>Solve your problem with us</li>
-                                        <li>We Provide Awesome Services</li>
-                                        <li>Exclusive design</li>
-
-                                    </ul>
+                                <div class="col-lg-6">
+                                    <h5 class="pb-0">Kermesse pour enfants à l'occasion de la journée de l'enfance</h5>
+                                    <p class="text-justify">
+                                        Depuis le 1er juin 2014, date de la première édition de la kermesse organisée dans le
+                                        primaire Haouchine à Tizi Ouzou, Big Heart a fait de cette action l'une de ses activités principales,
+                                        organisée annuellement à l'occasion de la journée mondiale de l'enfance. Cette initiative organisée dans
+                                        des écoles primaires et des cités fréquentées dans plusieurs villages consiste à mettre en place des stands de jeux et
+                                        une animation musicale pour fêter cette occasion de la plus belle des manières, en plus d'autres activités telles qu'une tombola
+                                        organisée à la fin, et les animations assurées par des mascottes qui font en sorte que cette journée
+                                        soit remplie de joie, dans une ambiance BON ENFANT au sens propre.
+                                    </p>
                                 </div>
                                 <div class="col-lg-5 sm-margin-20px-bottom xs-margin-15px-bottom sm-text-center">
-                                    <img src="img/content/tab-content-03.png" alt="">
+                                    <img src="img/content/tab-content-04.png" alt="">
                                 </div>
                             </div>
                         </div>
@@ -412,20 +374,13 @@
                         <div class="container">
                             <div class="row">
                                 <div class="col-lg-5 sm-margin-20px-bottom xs-margin-15px-bottom sm-text-center">
-                                    <img src="img/content/tab-content-03.png" alt="">
+                                    <img src="img/content/tab-content-06.png" alt="">
                                 </div>
-                                <div class="col-lg-5 offset-lg-1">
-                                    <h5>Couffins du Ramadhan</h5>
-                                    <p>Ready site integration aute irure design in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat design proident.</p>
-
-                                    <ul class="list-style no-margin-bottom">
-                                        <li>One click and site ready to use</li>
-                                        <li>Your business deserves best software</li>
-                                        <li>Solve your problem with us</li>
-                                        <li>We Provide Awesome Services</li>
-                                        <li>Exclusive design</li>
-
-                                    </ul>
+                                <div class="col-lg-6">
+                                    <h5 class="mb-0">Distribution de cartables scolaires</h5>
+                                    <p class="text-justify">
+                                        La rentrée des classes rime avec des articles scolaires et des frais assez coûteux, chose qui a motivé l'Association a mettre cette initiative de distribution de cartables scolaires remplis de fournitures nécessaires dans son cadre d'activités annuelles, pour venir en aide aux familles et aux enfants qui sont dans le besoin, afin de leur permettre de reprendre dans de bonnes conditions. Une opération d'achat et de tri est organisée avant la rentrée des classes, et la distribution se fait minutieusement selon l'âge et le sexe et le palier, en collaboration avec des guides engagés par l'Association dans plusieurs villages et communes de la wilaya de Tizi Ouzou.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -433,21 +388,14 @@
                     <div>
                         <div class="container">
                             <div class="row">
-                                <div class="col-lg-5 offset-lg-1">
-                                    <h5>Distribution de cartables scolaires</h5>
-                                    <p>Ready site integration aute irure design in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat design proident.</p>
-
-                                    <ul class="list-style no-margin-bottom">
-                                        <li>One click and site ready to use</li>
-                                        <li>Your business deserves best software</li>
-                                        <li>Solve your problem with us</li>
-                                        <li>We Provide Awesome Services</li>
-                                        <li>Exclusive design</li>
-
-                                    </ul>
+                                <div class="col-lg-6">
+                                    <h5 class="mb-0">Collecte de sang</h5>
+                                    <p class="text-justify">
+                                        Donner du sang, c'est donner de la VIE ! Big Heart croit en cette citation et en fait un slogan pour cette activité lancée depuis novembre 2015. L'Association organise chaque année une compagne de collecte de sang au sein de l'université Mouloud Mammeri de Tizi Ouzou, en collaboration avec le CHU de Tizi Ouzou.
+                                    </p>
                                 </div>
                                 <div class="col-lg-5 sm-margin-20px-bottom xs-margin-15px-bottom sm-text-center">
-                                    <img src="img/content/tab-content-03.png" alt="">
+                                    <img src="img/content/tab-content-07.png" alt="">
                                 </div>
                             </div>
                         </div>
@@ -456,20 +404,14 @@
                         <div class="container">
                             <div class="row">
                                 <div class="col-lg-5 sm-margin-20px-bottom xs-margin-15px-bottom sm-text-center">
-                                    <img src="img/content/tab-content-03.png" alt="">
+                                    <img src="img/content/tab-content-08.png" alt="">
                                 </div>
-                                <div class="col-lg-5 offset-lg-1">
-                                    <h5>Collecte de sang</h5>
-                                    <p>Ready site integration aute irure design in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat design proident.</p>
-
-                                    <ul class="list-style no-margin-bottom">
-                                        <li>One click and site ready to use</li>
-                                        <li>Your business deserves best software</li>
-                                        <li>Solve your problem with us</li>
-                                        <li>We Provide Awesome Services</li>
-                                        <li>Exclusive design</li>
-
-                                    </ul>
+                                <div class="col-lg-6">
+                                    <h5 class="mb-0">Hiver au chaud et formation</h5>
+                                    <p class="mb-0">
+                                        Ready site integration aute irure design in reprehenderit in voluptate velit esse cillum dolore eu
+                                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat design proident.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -477,21 +419,42 @@
                     <div>
                         <div class="container">
                             <div class="row">
-                                <div class="col-lg-5 offset-lg-1">
-                                    <h5>Hiver au chaud et formation</h5>
-                                    <p>Ready site integration aute irure design in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat design proident.</p>
-
-                                    <ul class="list-style no-margin-bottom">
-                                        <li>One click and site ready to use</li>
-                                        <li>Your business deserves best software</li>
-                                        <li>Solve your problem with us</li>
-                                        <li>We Provide Awesome Services</li>
-                                        <li>Exclusive design</li>
-
-                                    </ul>
+                                <div class="col-lg-6">
+                                    <h5 class="mb-0">Couffins du Ramadhan</h5>
+                                    <p class="text-justify">
+                                        A la veille de ce mois sacré, l'Association se mobilise pour mener une grande collecte de dons en vue d'assurer
+                                        les moyens nécessaires pour réussir cette initiative annuelle, lancée officiellement depuis Juillet 2014. L'Association procède
+                                        à l'achat des denrées alimentaires nécessaires avant de les trier dans des couffins pour les distribuer ensuite aux familles nécessiteuses
+                                        à travers toute la wilaya de Tizi-Ouzou.
+                                    </p>
+                                    <h5 class="mb-0">Circoncision collective</h5>
+                                    <p class="text-justify">
+                                        L'Association organise cette initiative
+                                        lors des dix derniers jours de chaque mois sacré du Ramadhan. Cette
+                                        action est destinée à des enfants nécessiteux à travers toute la wilaya de Tizi Ouzou. Comme ce fut le cas à chaque édition,
+                                        depuis la toute première organisée le 03 août 2013, une cérémonie
+                                        est organisée à l'honneur des familles des enfants qui bénéficient de tenues traditionnelles adéquates pour l'occasion et de cadeaux remis lors de
+                                        cette cérémonie qui est suivie de l'opération de circoncision
+                                        collective qui se déroule dans un cadre organisé, que ça soi au CHU de Tizi Ouzou ou dans d'autres cliniques privées.
+                                    </p>
                                 </div>
                                 <div class="col-lg-5 sm-margin-20px-bottom xs-margin-15px-bottom sm-text-center">
-                                    <img src="img/content/tab-content-03.png" alt="">
+                                    <img src="img/content/tab-content-05.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-5 sm-margin-20px-bottom xs-margin-15px-bottom sm-text-center">
+                                    <img src="img/content/tab-content-09.png" alt="">
+                                </div>
+                                <div class="col-lg-6">
+                                    <h5 class="mb-0">Distribution de colis de viande et de moutons</h5>
+                                    <p class="text-justify">
+                                        À la veille de chaque fête d'Aid El-Adha, l'Association Big Heart mène une grande compagne de collecte de dons afin d'accomplir cette action approuvée lors de l'assemblée Générale comme l'une des initiatives annuelles. Depuis la toute première édition organisée en 2013, l'Organisation fait en sorte de distribuer des colis de viande et des moutons au profit de familles qui sont dans le besoin, à travers plusieurs régions de la wilaya, en plus de fêter l'aid avec des catégories sociales qui sont dans le besoin humain et financier, à l'instar des occupants des centres sis à Boukhalfa (Centre Spécialisé de rééducation, Maison de Retraite...).
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -506,28 +469,36 @@
     <section class="pricing-table">
         <div class="container">
             <div class="section-heading">
-                <h3>What Our Client Say</h3>
+                <h3>Quelques avis et encouragements</h3>
             </div>
             <div class="owl-carousel owl-theme" id="testmonials-carousel">
                 <div class="testmonial-single text-center">
                     <img src="img/testmonials/t-1.jpg" alt="" class="rounded-circle border">
-                    <h4 class="padding-20px-top font-size16 letter-spacing-1 no-margin-bottom">Alivin Corondo</h4>
-                    <h6 class="no-margin font-size11 text-uppercase letter-spacing-2 padding-25px-bottom">Networking Lead</h6>
-                    <p class="line-height-28 width-50 sm-width-75 xs-width-90 center-col">Exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    <h4 class="padding-20px-top font-size16 letter-spacing-1 no-margin-bottom">Hafid Derradji</h4>
+                    <h6 class="no-margin font-size11 text-uppercase letter-spacing-2 padding-25px-bottom">Commentateur et présentateur de bein Sport.</h6>
+                    <p class="line-height-28 width-50 sm-width-75 xs-width-90 center-col">
+                        Un Encouragement et une preuve de modestie pas comme les autres
+                        Merci Pour le partage Monsieur
+                    </p>
                     <span class="font-size24 vertical-align-top display-inline-block"><i class="fas fa-quote-right"></i></span>
                 </div>
                 <div class="testmonial-single text-center">
                     <img src="img/testmonials/t-2.jpg" alt="" class="rounded-circle border">
-                    <h4 class="padding-20px-top font-size16 letter-spacing-1 no-margin-bottom">Finley Walkeror</h4>
-                    <h6 class="no-margin font-size11 text-uppercase letter-spacing-2 padding-25px-bottom">App Developer</h6>
-                    <p class="line-height-28 width-50 sm-width-75 xs-width-90 center-col">Developer ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur voluptate.</p>
+                    <h4 class="padding-20px-top font-size16 letter-spacing-1 no-margin-bottom">Radio Tizi-Ouzou</h4>
+                    <h6 class="no-margin font-size11 text-uppercase letter-spacing-2 padding-25px-bottom">Radio Tizi-Ouzou</h6>
+                    <p class="line-height-28 width-50 sm-width-75 xs-width-90 center-col">
+                        L’association BIG HEART de la Wilaya de Tizi-Ouzou a eu un immense plaisir à participer à l’émission du Mercredi 22 Novembre 2018 en direct sur les ondes
+                        de la Radio locale de Tizi-Ouzou.
+                    </p>
                     <span class="font-size24 vertical-align-top display-inline-block"><i class="fas fa-quote-right"></i></span>
                 </div>
                 <div class="testmonial-single text-center">
                     <img src="img/testmonials/t-3.jpg" alt="" class="rounded-circle border">
-                    <h4 class="padding-20px-top font-size16 letter-spacing-1 no-margin-bottom">Niamah Hower</h4>
-                    <h6 class="no-margin font-size11 text-uppercase letter-spacing-2 padding-25px-bottom">Sales Designer</h6>
-                    <p class="line-height-28 width-50 sm-width-75 xs-width-90 center-col">Designer ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur commodo consequat.</p>
+                    <h4 class="padding-20px-top font-size16 letter-spacing-1 no-margin-bottom">La Dépêche de Kabyle</h4>
+                    <h6 class="no-margin font-size11 text-uppercase letter-spacing-2 padding-25px-bottom">Journal local</h6>
+                    <p class="line-height-28 width-50 sm-width-75 xs-width-90 center-col">
+                        Après Le Quotidien " EL Khabar ", " La Dépêche de Kabyle " Parle de Big Heart
+                    </p>
                     <span class="font-size24 vertical-align-top display-inline-block"><i class="fas fa-quote-right"></i></span>
                 </div>
 
@@ -537,53 +508,65 @@
     <!-- end testmonials section -->
 
     <!-- start blog section -->
-    <section>
+    <section id="portfolio">
         <div class="container">
             <div class="section-heading">
-                <h3>Latest Blog Posts</h3>
+                <h3>Des images pour chaque action</h3>
             </div>
             <div class="row">
-                <div class="col-lg-4 col-md-12 sm-margin-30px-bottom">
-                    <div class="blog-grid">
-                        <div class="blog-grid-img position-relative"><img alt="img" src="img/blog/blog-1.jpg">
-                            <div class="data-box-grid position-absolute">
-                                <h5>09</h5>
-                                <p>July</p>
+                <div class="col-lg-4 col-md-12 sm-margin-30px-bottom pb-3">
+                    <a class="clearfix" href="pages/cartables.html">
+                        <div class="blog-grid">
+                            <div class="blog-grid-img position-relative">
+                                <img alt="img" src="img/blog/blog-1.jpg">
                             </div>
                         </div>
-                        <div class="blog-grid-text padding-25px-all sm-padding-20px-all border border-color-medium-gray">
-                            <h4><a href="javascript:void(0)">Powerful tool for your customer</a></h4>
-                            <p class="no-margin">Exercitation ullamco laboris nisi ut aliquip ex ea commodo. cillum dolore eu fugiat nulla pariatur commodo consequat.cillum dolore eu fugiat pariatur.</p>
-                        </div>
-                    </div>
+                    </a>
                 </div>
                 <div class="col-lg-4 col-md-12 sm-margin-30px-bottom">
-                    <div class="blog-grid">
-                        <div class="blog-grid-img position-relative"><img alt="img" src="img/blog/blog-2.jpg">
-                            <div class="data-box-grid position-absolute">
-                                <h5>08</h5>
-                                <p>May</p>
+                    <a class="clearfix" href="pages/cartables.html">
+                        <div class="blog-grid">
+                            <div class="blog-grid-img position-relative">
+                                <img alt="img" src="img/blog/blog-2.jpg">
                             </div>
                         </div>
-                        <div class="blog-grid-text padding-25px-all sm-padding-20px-all border border-color-medium-gray">
-                            <h4><a href="javascript:void(0)">Growth your business strategy</a></h4>
-                            <p class="no-margin">Exercitation ullamco laboris nisi ut aliquip ex ea commodo. cillum dolore eu fugiat nulla pariatur commodo consequat.cillum dolore eu fugiat pariatur.</p>
-                        </div>
-                    </div>
+                    </a>
                 </div>
-                <div class="col-lg-4 col-md-12">
-                    <div class="blog-grid">
-                        <div class="blog-grid-img position-relative"><img alt="img" src="img/blog/blog-3.jpg">
-                            <div class="data-box-grid position-absolute">
-                                <h5>04</h5>
-                                <p>Feb</p>
+                <div class="col-lg-4 col-md-12 sm-margin-30px-bottom">
+                    <a class="clearfix" href="pages/cartables.html">
+                        <div class="blog-grid">
+                            <div class="blog-grid-img position-relative">
+                                <img alt="img" src="img/blog/blog-3.jpg">
                             </div>
                         </div>
-                        <div class="blog-grid-text padding-25px-all sm-padding-20px-all border border-color-medium-gray">
-                            <h4><a href="javascript:void(0)">Digital service marketing agency</a></h4>
-                            <p class="no-margin">Exercitation ullamco laboris nisi ut aliquip ex ea commodo. cillum dolore eu fugiat nulla pariatur commodo consequat.cillum dolore eu fugiat pariatur.</p>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-12 sm-margin-30px-bottom">
+                    <a class="clearfix" href="pages/cartables.html">
+                        <div class="blog-grid">
+                            <div class="blog-grid-img position-relative">
+                                <img alt="img" src="img/blog/blog-4.jpg">
+                            </div>
                         </div>
-                    </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-12 sm-margin-30px-bottom">
+                    <a class="clearfix" href="pages/cartables.html">
+                        <div class="blog-grid">
+                            <div class="blog-grid-img position-relative">
+                                <img alt="img" src="img/blog/blog-5.jpg">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-12 sm-margin-30px-bottom">
+                    <a class="clearfix" href="pages/cartables.html">
+                        <div class="blog-grid">
+                            <div class="blog-grid-img position-relative">
+                                <img alt="img" src="img/blog/blog-6.jpg">
+                            </div>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
@@ -594,11 +577,36 @@
     <div class="section-clients bg-light-gray">
         <div class="container">
             <div class="owl-carousel owl-theme clients" id="clients">
-                <div class="item"><img alt="partner-image" src="img/partners/client-01.png"></div>
-                <div class="item"><img alt="partner-image" src="img/partners/client-02.png"></div>
-                <div class="item"><img alt="partner-image" src="img/partners/client-03.png"></div>
-                <div class="item"><img alt="partner-image" src="img/partners/client-04.png"></div>
-                <div class="item"><img alt="partner-image" src="img/partners/client-05.png"></div>
+                <div class="item">
+                    <a target="_blank" href="https://www.facebook.com/khaled.essien?fref=gs&dti=594159297262046&hc_location=group_dialog">
+                        <img class="rond" src="img/fb/1.jpg">
+                    </a>
+                </div>
+                <div class="item">
+                    <a target="_blank" href="https://www.facebook.com/nassim.chili?fref=gs&dti=594159297262046&hc_location=group_dialog">
+                        <img class="rond" src="img/fb/2.jpg">
+                    </a>
+                </div>
+                <div class="item">
+                    <a target="_blank" href="https://www.facebook.com/ghiles.best?fref=gs&dti=594159297262046&hc_location=group_dialog">
+                        <img class="rond" src="img/fb/3.jpg">
+                    </a>
+                </div>
+                <div class="item">
+                    <a target="_blank" href="https://www.facebook.com/assia.boudjenah?fref=gs&dti=594159297262046&hc_location=group_dialog">
+                        <img class="rond" src="img/fb/4.jpg">
+                    </a>
+                </div>
+                <div class="item">
+                    <a target="_blank" href="https://www.facebook.com/sii.hem.92?fref=gs&dti=594159297262046&hc_location=group_dialog">
+                        <img class="rond" src="img/fb/5.jpg">
+                    </a>
+                </div>
+                <div class="item">
+                    <a target="_blank" href="https://www.facebook.com/profile.php?id=100009461572238&fref=gs&dti=594159297262046&hc_location=group_dialog">
+                        <img class="rond" src="img/fb/6.jpg">
+                    </a>
+                </div>
                 <div class="item"><img alt="partner-image" src="img/partners/client-06.png"></div>
             </div>
         </div>
@@ -610,18 +618,18 @@
         <div class="container">
             <div class="row margin-30px-bottom padding-30px-bottom border-bottom border-color-light-white">
                 <div class="col-lg-4 col-md-12 sm-margin-30px-bottom text-center">
-                    <h3 class="footer-title-style text-white">Phone</h3>
-                    <p class="font-size16 sm-font-size14">(+44) 123 456 789</p>
+                    <h3 class="footer-title-style text-white">Numéro de téléphone</h3>
+                    <p class="font-size16 sm-font-size14">(+213) 558 59 84 49</p>
                 </div>
 
                 <div class="col-lg-4 col-md-12 sm-margin-30px-bottom text-center">
                     <h3 class="footer-title-style text-white">Email</h3>
-                    <p class="font-size16 sm-font-size14">addyour@emailhere</p>
+                    <p class="font-size16 sm-font-size14">big-heart-family@hotmail.com</p>
                 </div>
 
                 <div class="col-lg-4 col-md-12 text-center">
                     <h3 class="footer-title-style text-white">Location</h3>
-                    <p class="font-size16 sm-font-size14">74 Guild Street 542B, Town MT.</p>
+                    <p class="font-size16 sm-font-size14">Bulevard Khoudja Khaled (bouaziz) Immeuble N°03, 1er étage <br/>Tizi-Ouzou, Algérie </p>
                 </div>
             </div>
 
@@ -629,16 +637,10 @@
                 <div class="col-12 text-center">
                     <ul class="social-icon-style2 no-margin">
                         <li>
-                            <a href="javascript:void(0)"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://www.facebook.com/big.heart.family/"><i class="fab fa-facebook-f"></i></a>
                         </li>
                         <li>
-                            <a href="javascript:void(0)"><i class="fab fa-twitter"></i></a>
-                        </li>
-                        <li>
-                            <a href="javascript:void(0)"><i class="fab fa-google-plus-g"></i></a>
-                        </li>
-                        <li>
-                            <a href="javascript:void(0)"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="javascript:void(0)"><i class="fab fa-youtube"></i></a>
                         </li>
                     </ul>
                 </div>
